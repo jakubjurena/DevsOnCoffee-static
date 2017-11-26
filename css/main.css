@@ -1,0 +1,49 @@
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-image: url("../assets/images/bg.jpeg");
+    background-position: top center !important;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 40vh;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container .panel {
+    font-size: 5vh;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+footer a {
+    color: #50C878; /* emerald color */
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: #1CE678; /* teknikk color */
+    text-decoration: none;
+}
