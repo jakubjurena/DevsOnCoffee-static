@@ -54,6 +54,10 @@ footer a:hover, footer a:active {
     text-decoration: none;
 }
 
+.small {
+    font-size: 75%;
+}
+
 /* For desktop: */
 .col-offset-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
